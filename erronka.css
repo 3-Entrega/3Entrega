@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    background-color: gray;
+    color: white;
+    padding-bottom: 5px;
+    position: sticky;
+    top: 0px;
+}
+
+.osoa {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: 
+        auto 1fr auto;
+}
+
+.footer p {
+    margin-top: 2%;
+    text-align: center;
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 1%;
+    width: 100%;
+}
+
+.kookiebotoia {
+    float: right;
+}
+
+.menua>a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: block;
+}
+
+.menua>a:hover {
+    background-color: white;
+    color: black;
+}
+
+.izenburua {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.zerbitzuizenburua {
+    padding: 1%;
+    text-align: center;
+}
+
+.menua {
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoa {
+    padding-top: 25px;
+    padding-left: 15px;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.info {
+    padding: 30px;
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+
+.mapa {
+    float: right;
+    margin: 2%;
+    box-sizing: border-box;
+    width: 640px;
+    height: 480px;
+}
+
+.orokorra {
+    padding: 20px;
+    width: 50%;
+    float: left;
+}
+
+.formularioa {
+    border: 1px black solid;
+    width: 25%;
+    margin: 2% auto;
+    box-shadow: 5px 3px 2px 1px black;
+    padding: 1%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.formularioa .explikaziokaxa {
+    width: 90%;
+    height: 50px;
+}
+
+.formularioa>form>.kontaktatubotoiak {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 40% 40%;
+    grid-gap: 5%;
+}
+
+.formularioa>form>.kontaktatubotoiak>.bidalibotoia {
+    background-color: lightgreen;
+    margin: 2%;
+    height: 120%;
+}
+
+.formularioa>form>.kontaktatubotoiak>.ezabatubotoia {
+    background-color: rgb(255, 87, 87);
+    margin: 2%;
+    height: 120%;
+}
+
+.kontaktuinfo {
+    padding: 2% 0% 0% 2%;
+    float: left;
+}
+
+.kontaktuak {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.zerbitzuak {
+    display: grid;
+    grid-template-columns:  28% 28% 28%;
+    grid-gap: 3%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.zerbitzuak div {
+    background-color: coral;
+    padding: 2%;
+    text-align: center;
+    border: 1px black solid;
+    width: 100%;
+}
+
+.zerbitzuak>div>p {
+    text-align: justify;
+}
+
+.zerbitzuak>div>h3 {
+    color: #ffffbf;
+}
+
+.kookiak {
+    opacity: 0.5;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    color: black;
+    padding: 2%;
+}
+
+.gailuak {
+    display: grid;
+    column-gap: 3%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+    grid-auto-columns: 25%;
+    grid-auto-flow: column;
+}
+.gailuak>div {
+    background-color: coral;
+    display: grid;
+    padding: 2%;
+    grid-template-rows: 7% 43% 40% 10%;
+    height: 29em;
+}
+
+.gailumota {
+    margin: 2% auto;
+    text-align: center;
+}
+
+.gailuak>div>h4 {
+    padding: 2%;
+    text-align: center;
+    color: #ffffbf;
+}
+
+.gailuak>div>.espezifikazioak {
+    color: #ffffbf;
+    padding-top: 2%;
+    min-height: 40%;
+}
+
+.gailuak>div>.irudia {
+    text-align: center;
+    
+}
+
+.gailuak>div>.irudia>img {
+    height: 195px;
+    width: 195px;
+}
+
+.gailuak>div>.ordaindu {
+    text-align: center;
+    padding: 3%;
+    margin: auto;
+    width: 80%;
+    background-color: yellow;
+}
+
+.gailuak>div>.ordaindu>a {
+    text-decoration: none;
+    color: black;
+}
+
+.produktua {
+    display: grid;
+    grid-template-columns:  60% 30%;
+    grid-gap: 1%;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+}
+
+.produktua>.produktuirudia {
+    text-align: center;
+}
+
+.produktua>.produktuirudia>img {
+    margin: 1% auto 0 auto;
+    width: 60%;
+}
+
+.esplikazioa {
+    text-align: justify;
+}
+
+.produktuaproduktua>.esplikatuproduktua>.produktudeskribapena>p {
+    text-align: justify;
+}
+
+.gorputzaproduktua>.ordaindumetodoa>form>div {
+    text-align: center;
+}
+
+.gorputzaproduktua>.ordaindumetodoa>form>div>.ordaindubotoia {
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    box-shadow: black 2px 3px 3px;
+}
+
+.gorputzaproduktua>.ordaindumetodoa>form>div>.ordaindubotoia:hover {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    box-shadow: black 2px 3px 3px;
+}
+
+.gorputzaproduktua>.ordaindumetodoa {
+    display: flex;
+    justify-content: center;
+}
+
+.gorputzaproduktua {
+    display: grid;
+    grid-template-rows: 7fr 2fr 1fr;
+    grid-gap: 5%;
+}
