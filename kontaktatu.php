@@ -24,10 +24,10 @@
             </div>
 
             <div class="formularioa">
-                <form action="" method="get">
+                <form action="procesar_formulario.php" method="post">
                     <h1>Kontaktatu</h1> <br>
 
-                    <label for="izena">Izena*</label>
+                    <label for="izena">jijiji*</label>
                     <input type="text" name="izena" id="izena" required> <br> <br>
                     <label for="abizena">Abizena</label>
                     <input type="text" name="abizena" id="abizena"> <br> <br>
@@ -41,13 +41,11 @@
                     <input type="radio" name="informazioajaso" id="telefonozjaso" checked value="telefonoz">
                     <label for="informazioajaso">Telefono bidez</label> <br>
 
-
-
                     <input type="radio" name="informazioajaso" id="emailezjaso" value="emailez">
                     <label for="informazioajaso">Email bidez</label> <br> <br>
 
                     <label for="errorea">Akats mota*</label>
-                    <select id="arazoa">
+                    <select id="arazoa" name="arazoa">
                         <option disabled selected>Arazoa</option>
                         <option value="bueltatu">Gailua bueltatu nahi dut</option>
                         <option value="konponketa">Arazo bat konpondu nahi du</option>
@@ -59,8 +57,8 @@
                     <br>
                     <br>
                     <div class="kontaktatubotoiak">
-                        <input type="submit" name="bidali" value="Bidali" class="bidalibotoia">
-                        <input type="reset" value="Garbitu" class="ezabatubotoia">
+                    <form action="DatuBasea.php" method="post">
+                    <input type="reset" value="Garbitu" class="ezabatubotoia">
                     </div>
                 </form>
             </div>
